@@ -14,7 +14,7 @@
 # [END documentation]
 
 # [START import_module]
-#-------------------------------------------------
+#
 
 from datetime import datetime
 from airflow import DAG
