@@ -1,0 +1,75 @@
+{"schema": [
+				{
+					"Name": "_airbyte_data_pipelineId",
+					"Type": "string",
+					"NameTo": "id",
+					"TypeTo": "bigint"
+				},
+				{
+					"Name": "_airbyte_data_label",
+					"Type": "string",
+					"NameTo": "label_pipeline",
+					"TypeTo": "string"
+				},
+				{
+					"Name": "_airbyte_data_stages_stageId",
+					"Type": "string",
+					"NameTo": "stage_id",
+					"TypeTo": "bigint"
+				},
+				{
+					"Name": "_airbyte_data_stages_createdAt_long",
+					"Type": "long",
+					"NameTo": "dt_created_stage",
+					"TypeTo": "long"
+				},
+				{
+					"Name": "_airbyte_data_stages_updatedAt",
+					"Type": "long",
+					"NameTo": "dt_updated_stage",
+					"TypeTo": "long"
+				},
+				{
+					"Name": "_airbyte_data_stages_active",
+					"Type": "boolean",
+					"NameTo": "active_stage",
+					"TypeTo": "boolean"
+				},
+				{
+					"Name": "_airbyte_data_stages_label",
+					"Type": "string",
+					"NameTo": "label_stage",
+					"TypeTo": "string"
+				},
+				{
+					"Name": "_airbyte_data_createdAt",
+					"Type": "string",
+					"NameTo": "dt_created",
+					"TypeTo": "long"
+				},
+				{
+					"Name": "_airbyte_data_updatedAt",
+					"Type": "string",
+					"NameTo": "dt_updated",
+					"TypeTo": "long"
+				},
+				{
+					"Name":"_airbyte_emitted_at",
+					"Type":"long",
+					"NameTo":"dt_extraction",
+					"TypeTo":"long"
+				},
+				{
+					"Name":"_airbyte_data_active",
+					"Type":"boolean",
+					"NameTo":"active_pipeline",
+					"TypeTo":"boolean"
+				},
+				{
+					"Name":"_airbyte_data_archived",
+					"Type":"boolean",
+					"NameTo":"archived",
+					"TypeTo":"boolean"
+				}
+			]
+}

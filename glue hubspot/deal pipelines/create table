@@ -1,0 +1,12 @@
+CREATE TABLE "hubspot"."deal_pipelines"(id  bigint NOT NULL encode zstd,
+                               label_pipeline varchar(35) encode zstd,
+                               stage_id bigint encode zstd,
+                               dt_created_stage timestamp without time zone encode zstd,
+                               dt_updated_stage timestamp without time zone encode zstd,
+                               active_stage boolean encode zstd,
+                               label_stage varchar(30) encode zstd,
+                               dt_created timestamp without time zone encode zstd,
+                               dt_updated timestamp without time zone encode zstd,
+                               dt_extraction timestamp without time zone encode zstd,
+                               active_pipeline boolean encode zstd,
+                               CONSTRAINT deal_pipelines_pkey PRIMARY KEY(id)) DISTSTYLE ALL  COMPOUND SORTKEY(id)

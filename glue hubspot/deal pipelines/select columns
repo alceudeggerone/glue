@@ -1,0 +1,18 @@
+select  				id
+                        ,label_pipeline
+                        ,stage_id
+                        ,cast(from_unixtime(dt_created_stage/1000) as timestamp) as dt_created_stage
+                        ,cast(from_unixtime(dt_updated_stage/1000) as timestamp) as dt_updated_stage
+                        ,active_stage
+                        ,label_stage
+						,cast(from_unixtime(dt_created/1000) as timestamp) as dt_created
+                        ,cast(from_unixtime(dt_updated/1000) as timestamp) as dt_updated
+					,from_unixtime(dt_extraction/1000) as dt_extraction
+                        ,active_pipeline
+                      ,archived
+
+
+
+
+
+                   from table;
