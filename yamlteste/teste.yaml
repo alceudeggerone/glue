@@ -3,3 +3,4 @@ telefone: string
 endereco:
   - rua: "rua tal"
   - numero: 60
+  - complemento : apt6
