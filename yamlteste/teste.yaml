@@ -1,6 +1,6 @@
 nome: int
 telefone: string
 endereco:
-  - rua: "rua tal"
-  - numero: 60
-  - complemento : apt6
+  rua: string
+  numero: int
+  complemento : int
