@@ -1,0 +1,5 @@
+nome: int
+telefone: string
+endereco:
+  - rua: "rua tal"
+  - numero: 60
