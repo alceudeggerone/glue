@@ -4,3 +4,4 @@ endereco:
   rua: string
   numero: int
   complemento : int
+sql: https://raw.githubusercontent.com/alceudeggerone/glue/master/yamlteste/sql.yaml
