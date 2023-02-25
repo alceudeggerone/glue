@@ -9,8 +9,15 @@ response = requests.request("GET", url, verify=False)
 
 a=response.content
 data=yaml.safe_load(a)
+teste_json=json.dumps(data)
+print(teste_json)
+print(data['sql'])
 
-print(data)
+responsesql = requests.request("GET", data['sql'], verify=False)
+
+sql=responsesql.content
+data_sql=yaml.safe_load(sql)
+print(data_sql['sql'])
 
 
 

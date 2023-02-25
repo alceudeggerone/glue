@@ -1,2 +1,7 @@
 sql: | 
-  select * from teste
+  select 
+  a
+  ,b
+  ,c
+  
+  from teste
